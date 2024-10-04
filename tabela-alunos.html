@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: auto;
+            border-collapse: collapse;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Lista de Alunos</caption>
+        <thead>
+            <tr>
+                <td scope="col">Nome</td>
+                <td scope="col">Nota</td>
+                <td scope="col">Média Final</td>
+                <td scope="col">Classificação</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Xerox Miguel Porfírio</td>
+                <td colspan="2">8.5</td>
+                <td>1º Lugar</td>
+            </tr>
+            <tr>
+                <td>Autenticada</td>
+                <td>9.0</td>
+                <td>7.5</td>
+                <td rowspan="2">2º Lugar</td>
+            </tr>
+            <tr>
+                <td>Fotocópia</td>
+                <td>8.5</td>
+                <td>7.5</td>
+            </tr>
+            <tr>
+                <td>Carimbo</td>
+                <td>7.2</td>
+                <td>6.9</td>
+                <td>3º Lugar</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
